@@ -16,6 +16,12 @@ p {
     margin: 0;
 }
 
+button.focus-none:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
 .section-title {
     text-align: center;
     padding: 40px 0;
@@ -95,10 +101,4 @@ p {
     line-height: 27px;
     font-weight: 600;
     color: #289BDE;
-}
-
-
-.registration-bg {
-    background-color: #289BDE;
-    padding: 5% 8%;
 }
