@@ -1,0 +1,115 @@
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {}
+
+/* large device */
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+    .section-title h3 {
+        font-size: 42px;
+        line-height: 44px;
+        padding-bottom: 25px;
+    }
+
+
+
+    .section-title p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .card-title {
+        font-size: 17px;
+        line-height: 22px;
+
+    }
+
+    .card-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .card-price {
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+}
+
+
+/* medium device */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .section-title h3 {
+        font-size: 38px;
+    }
+
+    .carousel-caption-custom h1 {
+        font-size: 40px;
+        line-height: 47px;
+
+    }
+
+    .carousel-caption-custom p {
+        font-size: 16px;
+        line-height: 23px;
+
+    }
+}
+
+/* small device */
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .section-title h3 {
+        font-size: 28px;
+        line-height: 32px;
+        padding-bottom: 15px;
+
+    }
+
+    .section-title p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .carousel-caption-custom h1 {
+        font-size: 33px;
+        line-height: 40px;
+
+    }
+
+    .carousel-caption-custom p {
+        font-size: 16px;
+        line-height: 23px;
+
+    }
+}
+
+/* x-small device */
+@media only screen and (max-width: 576px) {
+    .section-title {
+        padding: 10px 0 25px 0;
+    }
+
+    .section-title h3 {
+        font-size: 18px;
+        line-height: 21px;
+        padding-bottom: 15px;
+
+    }
+
+    .section-title p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .carousel-caption-custom h1 {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 500;
+        padding-bottom: 17px;
+    }
+
+    .carousel-caption-custom p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 300;
+        padding-bottom: 7px;
+    }
+}
