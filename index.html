@@ -5,18 +5,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Digital Learning Home</title>
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/f66d38b4e0.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- main stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- responsive stylesheet -->
     <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
+    <!-- start header section -->
     <header class="header-area">
         <div class="container">
+            <!-- navbar -->
             <nav class="navbar navbar-expand-lg py-4">
-                <div class="container">
+                <div class="container px-0">
                     <a class="navbar-brand fs-3 fw-bold text-primary" href="#">Get Learn</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -57,7 +63,7 @@
             </nav>
 
         </div>
-
+        <!-- carousel slider  -->
         <section class="slider-area container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
@@ -117,7 +123,11 @@
             </div>
         </section>
     </header>
+    <!-- end header section -->
+
+    <!-- start main section -->
     <main>
+        <!-- popular courses section -->
         <section class="popular-courses-area py-5">
             <div class="container">
                 <div class="row">
@@ -251,6 +261,54 @@
                 </div>
             </div>
         </section>
+
+        <!-- elearning instittute section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-md-5">
+                        <div class="elearning-left">
+                            <img class="img-fluid" src="img/student/working.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="elearning-right">
+                            <div class="section-title tab-view text-md-start">
+                                <h3>Explore The elearning Institute</h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by injected humour, or randomised words which
+                                    don't look even slightly believable. If you are going to use a passage of Lorem
+                                    Ipsum, you need to be sure.</p>
+                                <p class="d-none d-xl-block pt-3">Anything embarrassing hidden in the middle of text.
+                                    All the
+                                    Lorem Ipsum generators on
+                                    the Internet tend to repeat predefined.</p>
+                            </div>
+                            <div class="counter d-flex flex-wrap flex-lg-nowrap justify-content-start">
+                                <span class="pe-4 pb-3">
+                                    <h3 class="fw-bold">3.2k+</h3>
+                                    <small>Online Course</small>
+                                </span>
+                                <span class="pe-4 pb-3">
+                                    <h3 class="fw-bold">600+</h3>
+                                    <small>Expert Member</small>
+                                </span>
+                                <span class="pe-4 pb-3">
+                                    <h3 class="fw-bold">1k+</h3>
+                                    <small>Rating & Review</small>
+                                </span>
+                            </div>
+                            <button type="button"
+                                class="btn btn-primary fs-6 text-white rounded mt-3 mb-5 px-4 py-3">Read
+                                More</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- registration section -->
         <section class="registration-area">
             <div class="container">
                 <div class="bg-primary rounded" style="padding: 5% 8%;">
@@ -259,12 +317,9 @@
                             <div class="registration-content text-center text-lg-start">
                                 <h3 class="text-white pb-3">Ready To Join</h3>
                                 <p class="text-white" style="font-size: 15px;">We provide the most effective courses for
-                                    beginers. We will
-                                    train
-                                    you with our best.
-                                    Completing our courses you will become a skilled man. So don't be late and hurry up
-                                    to
-                                    join with us to lead a skillfull life.</p>
+                                    beginers. We will train you with our best. Completing our courses you will become a
+                                    skilled man. So don't be late and hurry up
+                                    to join with us to lead a skillfull life.</p>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6">
@@ -358,6 +413,7 @@
             </div>
         </section>
 
+        <!-- FAQ section accordion -->
         <section class="faq-area py-5">
             <div class="container">
                 <div class="row">
@@ -369,9 +425,7 @@
                                 a page when looking at its layout.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-1 col-lg-3">
-
-                    </div>
+                    <div class="col-12 col-md-1 col-lg-3"></div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-2"></div>
@@ -388,19 +442,12 @@
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p><b>CSS Grid</b> Layout, is a two-dimensional grid-based
-                                            layout system with
-                                            rows
-                                            and
-                                            columns, making it easier to design web pages without having to use floats
-                                            and
-                                            positioning.
-                                            and rows.</p>
+                                        <p><b>CSS Grid</b>Layout, is a two-dimensional grid-based layout system with
+                                            rows and columns, making it easier to design web pages without having to use
+                                            floats and positioning and rows.</p>
                                         <p> <b>The CSS Flexbox</b> offers a one-dimensional layout. It is helpful in
-                                            allocating and
-                                            aligning the space among items in a container. It works with
-                                            all
-                                            kinds of display devices and screen sizes.</p>
+                                            allocating and aligning the space among items in a container. It works with
+                                            all kinds of display devices and screen sizes.</p>
                                     </div>
                                 </div>
                             </div>
@@ -463,6 +510,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- companies logo section -->
         <section class="companies-logo-area d-none d-lg-block py-4">
             <div class="container">
                 <div class="row">
@@ -496,6 +545,9 @@
             </div>
         </section>
     </main>
+    <!-- end the main section -->
+
+    <!-- start the footer section -->
     <footer class="footer-area mt-5">
         <div class="container">
             <div class="row">
@@ -526,12 +578,9 @@
             </div>
         </div>
     </footer>
+    <!-- end the footer section -->
 
-
-
-
-
-
+    <!-- bootstrap js cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
