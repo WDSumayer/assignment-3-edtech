@@ -170,3 +170,43 @@ button.focus-none:focus {
 /*---------------------------------
      end footer section css 
 ---------------------------------*/
+
+
+
+.feedback-carousel-item-custom {
+    height: 355px;
+}
+
+.feedback-slider button.carousel-control-prev {
+    left: -26px;
+    width: 50px;
+}
+
+.feedback-slider button.carousel-control-next {
+    right: -26px;
+    width: 50px;
+}
+
+.feedback-carousel-custom>button i.fa-solid {
+    width: 50px;
+    height: 50px;
+    background-color: #289BDE;
+    border-radius: 50%;
+    line-height: 51px;
+}
+
+.feedback-carousel-caption-custom {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding: 0;
+
+}
+
+.carousel-box-feedback {
+    padding: 45px;
+    border: 1px solid #E8E8E8;
+    width: 49%;
+    color: #777777;
+}
